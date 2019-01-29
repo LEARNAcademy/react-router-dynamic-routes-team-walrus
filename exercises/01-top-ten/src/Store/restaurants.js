@@ -1,11 +1,5 @@
 const restaurants = [
-  {
-    id: 1,
-    name: 'Petra',
-    type: 'Mediterranean',
-    menuItem: 'Beef and Lamb Gyro',
-    location: 'Sacramento',
-  },
+
   {
     id: 1,
     name: "Pesto Italian Craft Kitchen",
@@ -65,7 +59,7 @@ const restaurants = [
     name: "CUCINA Urbana",
     type: "Italian",
     location: "505 Laurel St"
-  },
+  }
 ]
 
 export default restaurants

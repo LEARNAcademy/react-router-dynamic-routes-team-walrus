@@ -6,8 +6,8 @@ import {
   Switch
 } from "react-router-dom";
 
-import restaurants from './Store/restaurants'
-import Restaurant from './Pages/restaurant'
+import restaurants from './store/restaurants'
+import Restaurant from './pages/Restaurant'
 import './App.css';
 
 class App extends Component {
@@ -18,6 +18,7 @@ class App extends Component {
     }
   }
   render() {
+    const { restaurants } = this.state
     return (
       <Router>
         <div >
@@ -36,7 +37,7 @@ class App extends Component {
           <Switch>
             <Route
               path="/restaurant/:id"
-              Component={Restaurant}
+              component={Restaurant}
             />
           </Switch>
         </div>
